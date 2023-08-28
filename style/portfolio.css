@@ -98,3 +98,33 @@ nav a{
 .info-container h1{
     font-size: 20px;
 }
+
+/* .what-i-do-section{
+} */
+.js-react-node{
+    display: flex;
+    gap: 15px;
+    padding: 20px;
+    text-align: justify;
+}
+.js-react-node div{
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px gray;
+}
+.js-react-node div h3,p{
+    margin: 7px 0px;
+    color: gray;
+}
+/* resume-container */
+.resume-container div{
+padding: 10px;
+text-align: left;
+}
+.summary-of-resume{
+    display: grid;
+    grid-gap: 10px;
+    padding: 20px;
+    grid-template-columns: repeat(2,1fr);
+}
+
